@@ -381,17 +381,22 @@ button {
     font-size: 12px;
   }
 }
-@media only screen and (min-width: 768px){
+@media (min-width: 768px) and (max-width: 1399px){
   .navbar{
     background-color: var(--white);
   }
   /* .main-part{
     margin-top: 5rem;
   } */
+  .nav-menu{
+    margin-right: 1rem;
+  }
   .footer-container{
     background-color: var(--dark);
     padding: 0 2rem;
-
+  }
+  .menu-dropdown {
+    padding-left: 1rem;
   }
   .footer-links{
     margin-left: 2rem;
