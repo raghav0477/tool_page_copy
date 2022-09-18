@@ -152,6 +152,29 @@ button {
 .tools {
   padding: 10px;
 }
+.sub-menu{
+  display: flex;
+  width: 800px;
+  height: 100px;
+}
+.content-items{
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+
+}
+.content-items img{
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+.ctn-title{
+  font-weight: 600;
+  font-size: 18px;
+}
+.content-items p{
+  font-size: 12px;
+}
 .footer {
   background-color: var(--dark);
   color: var(--white);
